@@ -1,0 +1,68 @@
+.linear-progress {
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+
+.linear-progress__container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.linear-progress__track {
+  flex: 1;
+  height: 8px;
+  background: var(--color-surface-variant);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.linear-progress__bar {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+/* Indeterminate animation - Material 3 Wave */
+.linear-progress__bar--indeterminate {
+  width: 40%;
+  background: linear-gradient(90deg, 
+    transparent, 
+    var(--color-primary) 25%, 
+    var(--color-primary) 75%, 
+    transparent
+  );
+  animation: indeterminate-slide 2s ease-in-out infinite;
+}
+
+@keyframes indeterminate-slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(350%);
+  }
+}
+
+.linear-progress__time {
+  font-size: 1.125rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-on-surface);
+  min-width: 4rem;
+  text-align: right;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .linear-progress {
+    padding: 0.75rem 1rem;
+  }
+
+  .linear-progress__time {
+    font-size: 1rem;
+    min-width: 3.5rem;
+  }
+}

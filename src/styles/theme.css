@@ -1,0 +1,148 @@
+/* Material 3 Design System - Color Tokens */
+
+:root {
+  /* Primary Colors */
+  --color-primary: #6750A4;
+  --color-primary-dark: #4F378B;
+  --color-on-primary: #FFFFFF;
+  
+  /* Secondary Colors */
+  --color-secondary: #625B71;
+  --color-on-secondary: #FFFFFF;
+  
+  /* Tertiary Colors */
+  --color-tertiary: #7D5260;
+  --color-on-tertiary: #FFFFFF;
+  
+  /* Surface Colors - Light Theme */
+  --color-surface: #FFFFFF;
+  --color-surface-variant: #E7E0EC;
+  --color-surface-variant-dark: #D0C9D6;
+  --color-on-surface: #1C1B1F;
+  --color-on-surface-variant: #49454F;
+  
+  /* Background */
+  --color-background: #FFFBFE;
+  --color-on-background: #1C1B1F;
+  
+  /* Outline */
+  --color-outline: #79747E;
+  --color-outline-variant: #CAC4D0;
+  
+  /* Success */
+  --color-success: #4CAF50;
+  --color-on-success: #FFFFFF;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  /* Primary Colors */
+  --color-primary: #D0BCFF;
+  --color-primary-dark: #BEADFA;
+  --color-on-primary: #381E72;
+  
+  /* Secondary Colors */
+  --color-secondary: #CCC2DC;
+  --color-on-secondary: #332D41;
+  
+  /* Tertiary Colors */
+  --color-tertiary: #EFB8C8;
+  --color-on-tertiary: #492532;
+  
+  /* Surface Colors - Dark Theme */
+  --color-surface: #1C1B1F;
+  --color-surface-variant: #49454F;
+  --color-surface-variant-dark: #3A3740;
+  --color-on-surface: #E6E1E5;
+  --color-on-surface-variant: #CAC4D0;
+  
+  /* Background */
+  --color-background: #1C1B1F;
+  --color-on-background: #E6E1E5;
+  
+  /* Outline */
+  --color-outline: #938F99;
+  --color-outline-variant: #49454F;
+  
+  /* Success */
+  --color-success: #66BB6A;
+  --color-on-success: #1B5E20;
+}
+
+/* Auto Theme - uses system preference */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    /* Primary Colors */
+    --color-primary: #D0BCFF;
+    --color-primary-dark: #BEADFA;
+    --color-on-primary: #381E72;
+    
+    /* Secondary Colors */
+    --color-secondary: #CCC2DC;
+    --color-on-secondary: #332D41;
+    
+    /* Tertiary Colors */
+    --color-tertiary: #EFB8C8;
+    --color-on-tertiary: #492532;
+    
+    /* Surface Colors - Dark Theme */
+    --color-surface: #1C1B1F;
+    --color-surface-variant: #49454F;
+    --color-surface-variant-dark: #3A3740;
+    --color-on-surface: #E6E1E5;
+    --color-on-surface-variant: #CAC4D0;
+    
+    /* Background */
+    --color-background: #1C1B1F;
+    --color-on-background: #E6E1E5;
+    
+    /* Outline */
+    --color-outline: #938F99;
+    --color-outline-variant: #49454F;
+    
+    /* Success */
+    --color-success: #66BB6A;
+    --color-on-success: #1B5E20;
+  }
+}
+
+/* Spacing System (8px base) */
+:root {
+  --spacing-xs: 0.25rem;   /* 4px */
+  --spacing-sm: 0.5rem;    /* 8px */
+  --spacing-md: 1rem;      /* 16px */
+  --spacing-lg: 1.5rem;    /* 24px */
+  --spacing-xl: 2rem;      /* 32px */
+  --spacing-2xl: 3rem;     /* 48px */
+  --spacing-3xl: 4rem;     /* 64px */
+}
+
+/* Typography Scale */
+:root {
+  --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  --font-family-display: 'Poppins', var(--font-family-base);
+}
+
+/* Border Radius */
+:root {
+  --radius-sm: 0.5rem;     /* 8px */
+  --radius-md: 1rem;       /* 16px */
+  --radius-lg: 1.5rem;     /* 24px */
+  --radius-xl: 2rem;       /* 32px */
+  --radius-full: 9999px;
+}
+
+/* Shadows */
+:root {
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Transitions */
+:root {
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}

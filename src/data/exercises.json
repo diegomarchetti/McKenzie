@@ -1,0 +1,74 @@
+{
+  "exercises": [
+    {
+      "id": 1,
+      "title": "Sdraiato a pancia in giù",
+      "subtitle": "Posizione di riposo",
+      "type": "HOLD",
+      "duration": 120,
+      "image": "01.png",
+      "description": "Sdraiati a pancia in giù su un tappetino comodo, con le braccia lungo i fianchi e la testa girata da un lato. Rilassa completamente la schiena, le spalle e le gambe. Respira lentamente e resta in questa posizione per 2–3 minuti, lasciando che i muscoli lombari si distendano. Se avverti fastidio, puoi mettere un piccolo cuscino sotto il petto.",
+      "voiceText": "Primo esercizio: sdraiato a pancia in giù, posizione di riposo"
+    },
+    {
+      "id": 2,
+      "title": "Sdraiato con gomiti appoggiati",
+      "subtitle": "Estensione su gomiti",
+      "type": "HOLD",
+      "duration": 120,
+      "image": "02.png",
+      "description": "Dalla posizione prona, porta lentamente i gomiti sotto le spalle. Solleva il torace, mantenendo i fianchi e il bacino a contatto con il tappetino. Guarda in avanti, rilassa gambe e glutei e resta in posizione per 2–3 minuti. Questo esercizio aiuta a estendere la schiena e ridurre la pressione sui dischi lombari.",
+      "voiceText": "Secondo esercizio: estensione su gomiti"
+    },
+    {
+      "id": 3,
+      "title": "Estensione da sdraiato",
+      "subtitle": "Push-up McKenzie",
+      "type": "REPS",
+      "reps": 10,
+      "image": "03.png",
+      "description": "Dalla posizione a pancia in giù, appoggia le mani sotto le spalle come se volessi fare un piegamento. Spingi lentamente sulle braccia per sollevare il busto, mantenendo i fianchi aderenti al tappetino. Mantieni la posizione per 2 secondi, poi scendi dolcemente. Ripeti 10 volte, respirando lentamente e senza forzare il movimento.",
+      "voiceText": "Terzo esercizio: estensione da sdraiato, dieci ripetizioni"
+    },
+    {
+      "id": 4,
+      "title": "Estensione in piedi",
+      "subtitle": "Piegamento all'indietro",
+      "type": "REPS",
+      "reps": 10,
+      "image": "04.png",
+      "description": "In piedi, con i piedi alla larghezza delle spalle, appoggia le mani sui fianchi o nella parte bassa della schiena. Spingi delicatamente il bacino in avanti e inclina il busto all'indietro. Guarda leggermente verso l'alto e mantieni la posizione per 2 secondi, poi torna al centro. Ripeti 10 volte.",
+      "voiceText": "Quarto esercizio: estensione in piedi, dieci ripetizioni"
+    },
+    {
+      "id": 5,
+      "title": "Flessione da sdraiato",
+      "subtitle": "Ginocchia al petto",
+      "type": "REPS",
+      "reps": 6,
+      "image": "05.png",
+      "description": "Sdraiati sulla schiena, piega entrambe le ginocchia e portale lentamente verso il petto. Afferra le gambe con le mani e tira dolcemente finché senti la schiena allungarsi. Mantieni per 2 secondi, poi rilascia. Ripeti 6 volte.",
+      "voiceText": "Quinto esercizio: flessione da sdraiato, sei ripetizioni"
+    },
+    {
+      "id": 6,
+      "title": "Flessione da seduto",
+      "subtitle": "Piega in avanti su sedia",
+      "type": "REPS",
+      "reps": 6,
+      "image": "06.png",
+      "description": "Siediti su una sedia stabile con i piedi ben appoggiati a terra. Piega lentamente il busto in avanti, lasciando scendere le mani verso le caviglie o i piedi. Rilassa la testa e le spalle, senti l'allungamento nella parte bassa della schiena. Mantieni per 2 secondi, poi risali lentamente. Ripeti 6 volte.",
+      "voiceText": "Sesto esercizio: flessione da seduto, sei ripetizioni"
+    },
+    {
+      "id": 7,
+      "title": "Flessione in piedi",
+      "subtitle": "Piega in avanti",
+      "type": "REPS",
+      "reps": 6,
+      "image": "07.png",
+      "description": "In piedi, con le gambe leggermente divaricate, piegati lentamente in avanti lasciando che il busto e le braccia cadano verso il pavimento. Non forzare il movimento: lascia che la gravità faccia il lavoro. Risalire lentamente alla posizione eretta. Ripeti 6 volte, senza mantenere la posizione.",
+      "voiceText": "Settimo esercizio: flessione in piedi, sei ripetizioni"
+    }
+  ]
+}
