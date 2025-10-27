@@ -193,6 +193,7 @@ export default function Exercise() {
       {exercise.type === 'HOLD' && (
         <div style={{ display: 'none' }}>
           <Timer 
+            key={exercise.id}
             duration={exercise.duration}
             isRunning={isTimerRunning}
             isPaused={isPaused}
